@@ -5,7 +5,7 @@
 from pynput.keyboard import Key, Listener
 import socket
 
-UDP_IP = "192.168.0.17"
+UDP_IP = "192.168.0.9"
 UDP_PORT = 8506
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
